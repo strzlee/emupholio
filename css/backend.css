@@ -1,0 +1,204 @@
+@charset "utf-8";
+/* emupholio backend stylesheet */
+/* (c) 2012 straussn.eu */
+
+@font-face {
+    font-family: 'MuliRegular';
+    src: url('../fonts/Muli-Regular-webfont.eot');
+    src: url('../fonts/Muli-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Muli-Regular-webfont.woff') format('woff'),
+         url('../fonts/Muli-Regular-webfont.ttf') format('truetype'),
+         url('../fonts/Muli-Regular-webfont.svg#MuliRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+	font-family: 'MuliRegular', sans-serif;
+}
+
+header, footer {
+	clear: both;
+}
+
+a, a:hover, a:visited {
+	text-decoration: none;
+	color: #F9F9F9;
+}
+
+.background {
+	background-color: #009933;
+	color: #F9F9F9;
+	background-image: url(../img/bg.png);
+	background-repeat: no-repeat;
+}
+
+.title {
+	font-size: 3em;
+	margin: 5px; margin-top: 35px;
+}
+
+.teaser {
+	font-size: 0.9em;
+	margin: 5px; margin-bottom: 35px;
+}
+
+.copyright {
+	font-size: 0.9em;
+	margin: 5px; padding-top: 35px;
+}
+
+#container {
+	width: 95%; height: auto;
+	margin: auto;
+}
+
+#infobox {
+	display: none;
+	top: 0px; left: 0px;
+	opacity: 0.8;
+	position: absolute;
+	width: auto; height: auto;
+	padding: 10px;
+	background-color: #F9F9F9;
+	color: #000;
+	-webkit-box-shadow: 0px 0px 0px 1px #000; 	
+	-moz-box-shadow: 0px 0px 0px 1px #000; 
+	box-shadow: 0px 0px 0px 1px #000; 
+}
+
+#overlay {
+	display: none;
+	top: 0px; left: 0px;
+	z-index: 999;
+	position: fixed;
+	background-color: #000;
+	opacity: 0.8;
+}
+
+#login-form {
+	position: fixed;
+	z-index: 1000;
+	top: 0px; left: 0px;
+	width: 200px; height: 200px;
+}
+
+#login-form input  {
+	width: 178px;
+	margin: auto;
+	margin-bottom: 10px;
+	padding: 10px;
+}
+
+#login-form button {
+	margin: auto;
+	margin-bottom: 10px;
+	color: #0c0c0c;
+	width: 200px;
+}
+
+#imagelist {
+	float: left;
+	width: 190px;
+	height: 78%;
+	overflow: auto;
+	padding: 5px;
+	margin: 0px;
+}
+
+#imagelist .list-element {
+	width: 90%;
+	margin: 0px;
+	padding: 0px;	
+	cursor: pointer;
+}
+
+#imagelist .list-element:hover {
+	opacity: 0.8;	
+}
+
+#imagelist .no-thumb {
+	background-color: #F9F9F9;	
+	color: #F30;
+}
+
+#cropbox {
+	float: left;
+}
+
+#crobform {
+	float: left;
+}
+
+#uploadform {
+	float: left;
+	margin: 5px;
+	width: 50%; height: 20%;
+}
+
+#upload-frame{
+	display: none;
+	z-index: -999;
+	border: none;
+	height: 1px; width: 1px;
+}
+
+#upload-status {
+	float: left;
+	margin: 5px;
+	overflow: auto;
+	width: 405px; height: 80%;
+}
+
+#meta-data {
+	margin: 5px;
+	width: 100%; height: 87%;
+}
+
+button {
+	color: #FFF;
+	border: solid 1px #FFF;
+	margin: 5px;
+	padding: 5px;
+	width: 190px;
+	//-webkit-box-shadow: 0px 0px 1px 1px #333;	
+	//-moz-box-shadow: 0px 0px 1px 1px #333;
+}
+
+button:hover {
+	opacity: 0.8;	
+}
+
+.toolbox {
+	float: left;
+	width:200px; height:410px;	
+	margin: 5px;
+	float: left;
+	padding: 0px;
+	overflow: hidden;
+}
+
+.toolbox-large {
+	float: left;
+	width:410px; height:410px;	
+	margin: 5px;
+	padding: 0px;
+	float: left;
+	overflow: hidden;
+}
+
+.yellow {
+	background-color: #eebb00;
+}
+
+.orange {
+	background-color: #F30;
+}
+
+.green {
+	background-color: #3D0;
+}
+
+.blue {
+	background-color: #09F;
+}

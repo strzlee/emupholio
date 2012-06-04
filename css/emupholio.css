@@ -1,0 +1,171 @@
+@charset "utf-8";
+/* emupholio stylesheet */
+/* (c) 2012 straussn.eu */
+
+@font-face {
+    font-family: 'MuliRegular';
+    src: url('../fonts/Muli-Regular-webfont.eot');
+    src: url('../fonts/Muli-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Muli-Regular-webfont.woff') format('woff'),
+         url('../fonts/Muli-Regular-webfont.ttf') format('truetype'),
+         url('../fonts/Muli-Regular-webfont.svg#MuliRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+    
+body {
+	font-family: 'MuliRegular', sans-serif;	
+	color: #F9F9F9;
+}
+
+header, footer {
+	clear: both;
+	padding-top: 35px;
+}
+
+a, a:hover, a:visited{
+	text-decoration: none;
+	color: #F9F9F9;
+}
+
+.background {
+	background-color: #009933;
+	background-image: url(../img/bg.png);
+	background-repeat: no-repeat;
+}
+
+.title {
+	font-size: 3em;
+	margin: 5px; 
+}
+
+.teaser {
+	font-size: 0.9em;
+	margin: 5px; margin-bottom: 35px;
+}
+
+.about {
+	clear: both;
+	height: auto; width: 100%;
+	font-size: 1em;
+	margin: 5px;
+	padding-bottom: 35px;
+}
+
+.copyright {
+	clear: both;
+	margin-top: 35px;
+	border-top: solid 1px #082;
+	font-size: 0.9em;
+	margin: 5px; 
+}
+
+.admin-link {
+	font-size: 0.7em;
+	margin: 5px; 
+	float: right;
+}
+
+.g-plusone {
+	padding: 5px;	
+}
+
+#container {
+	width: 95%; height: auto;
+	margin: auto;
+}
+
+#grid {
+	border: top
+}
+
+#overlay {
+	display: none;
+	top: 0px; left: 0px;
+	z-index: 997;
+	position: fixed;
+	background-color: #000;
+	opacity: 0.8;
+}
+
+#image-viewer {
+	display: none;
+	position: fixed;
+	z-index: 998;
+}
+
+#image-viewer img {
+	clear: both;
+	width: auto; height: auto;	
+}
+
+#image-viewer-info-box {
+	display: none;
+	opacity: 0.6;
+	background-color: #000;
+	position: fixed;
+	z-index: 999;
+	width: 100%; height: auto;
+	top: 0px; left: 0px;
+	font-size: 1.2em;
+	padding-left: 5px;
+}
+
+#image-viewer-info-box .social-icon {
+	float: right;	
+	display: block;	
+	margin: 10px;
+}
+
+#image-viewer-info-box .social-icon:hover {
+	opacity: 0.8;
+}
+
+#image-viewer-info-box .exif-data {
+	float: left;
+	display: block;	
+}
+
+.box {
+	width:200px; height:200px;	
+	margin: 5px;
+	float: left;
+	overflow: hidden;
+}
+
+#box-overlay {
+	display: none;
+	background-color: #000;
+	width: 100%; height: 35px;
+	margin-top: 165px;  
+	opacity: 0.8;
+}
+
+#box-overlay p {
+	font-size: 0.8em;
+	padding: 10px;
+}
+
+.box:hover {
+	opacity: 0.8;	
+}
+
+.double {
+	width: 410px;	
+}
+
+.yellow {
+	background-color: #ccff00;
+}
+
+.orange {
+	background-color: #F30;
+}
+
+.green {
+	background-color: #3D0;
+}
+
+.blue {
+	background-color: #09F;
+}
