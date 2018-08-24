@@ -13,4 +13,4 @@
 
 *edit "src/settings.php" for your needs.*
 
-Online Demo: http://www.abarat-digital.net/emupholio
+Online Demo: https://strauss.ml/emupholio/
